@@ -1,0 +1,285 @@
+    /***
+
+    ##### Nav bar #####
+
+***/
+    
+    .nav {
+        background-color: @global-primary-background;
+        .icon-logo {
+            font-size: 25px;
+        }
+        .logo {
+            max-height: 24px;
+        }
+        .firstname {
+            color: #fff;
+        }
+        .lastname {
+            color: @global-secondary-background;
+        }
+        .logo_home {
+            text-decoration: none;
+        }
+    }
+    
+    .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+        li {
+            display: inline-block;
+        }
+        a {
+            display: block;
+            padding: 0px 14px;
+            color: @global-link-color;
+            transition: all ease .4s;
+            text-decoration: none;
+            &.uk-active {
+                color: lighten(@global-secondary-background, 5%);
+            }
+        }
+        a:hover {
+            color: @global-link-hover-color;
+            transition: all ease .4s;
+        }
+        i {
+            padding: 0px 3px;
+        }
+    }
+    
+    .transformed a {
+        &:hover {
+            transform: translateX(2px);
+        }
+    }
+    
+    .canvas {
+        color: white;
+    }
+    /***  ###offcanvas###
+
+***/
+    
+    #offcanvas {
+        .color {
+            background: #4589b0;
+            h1 {
+                font-size: 29px;
+            }
+        }
+        .links {
+            li {
+                padding: 15px;
+                list-style-type: none;
+            }
+            a {
+                display: block;
+                padding: 0px 14px;
+                color: @global-link-color;
+                transition: all ease .4s;
+                text-decoration: none;
+            }
+            a:hover {
+                color: @global-link-hover-color;
+                transition: all ease .4s;
+            }
+            .transformed a {
+                &:hover {
+                    transform: translateY(2px);
+                }
+            }
+        }
+        .canvaslinks a {
+            &:hover {
+                transform: translateX(2px);
+            }
+        }
+        img {
+            border: 2px solid #fff;
+        }
+        .uk-heading-bullet {
+            &:before {
+                border-left-color: @global-secondary-background;
+            }
+        }
+        .f-name {
+            color: #fff;
+        }
+        .l-name {
+            color: @global-secondary-background;
+        }
+    }
+    /**
+
+    ##### Hero #####
+
+***/
+    
+    #hero {
+        background: url("../../../../images/palmhero.jpg") center center no-repeat;
+        min-height: 500px;
+        background-size: cover;
+        h1 {
+            color: white;
+            padding-top: 10%;
+        }
+        h2 {
+            color: white;
+            margin-top: 0;
+        }
+        button {
+            padding: 14px;
+            font-size: 14px;
+        }
+        .social-icons {
+            li {
+                display: inline-block;
+                color: white;
+                padding: 8px;
+                font-size: 32px;
+            }
+        }
+        .hero-btn i {
+            vertical-align: middle;
+        }
+        .f-name {
+            color: #fff;
+        }
+        .l-name {
+            color: @global-secondary-background;
+        }
+    }
+    /***
+
+    #### Welcome ####
+
+***/
+
+    #welcome {
+        background-color: #F0F0F0;
+        
+    }
+    /***
+
+    ##### About #####
+
+***/
+    #about {
+        background-color: #F0F0F0;
+        .intro {
+            padding-top: 20px;
+        }
+        
+
+    }
+    /***
+
+    ##### Skills #####
+
+***/
+    #skills {
+        background-color: #F0F0F0;
+        
+    }
+    .uk-list {
+        list-style: none;
+    }
+
+
+    /***
+
+    ##### portfolio #####
+
+***/
+    
+    #portfolio {
+        margin-bottom: 30px;
+        .header {
+            text-align: center;
+        }
+        .portfolio {
+            padding-top: 15px;
+        }
+    }
+ /***
+
+    ##### callout #####
+
+***/
+    #callout {
+            background-color: @global-primary-background;
+        .callout-btn {
+            background-color: @global-secondary-background;
+            color: white;
+            padding: 11px;
+        }
+        .text {
+            color: white;
+        }
+        .resume {
+            text-decoration: none;
+        }
+    }
+
+    /***
+
+    ##### contact #####
+
+***/
+    
+    #contact {
+        background-color: #F0F0F0;
+       
+        overflow: hidden;
+        .Form input {
+            color: @global-primary-background;
+            margin-right:50%;
+        }
+        .error {
+            border: 1px solid #C21807;
+            transition: all ease .4s;
+        }
+
+    }
+
+    
+    
+    /*** 
+    ### footer#### 
+
+***/
+    
+    #footer {
+        background-color: @global-primary-background;
+        .info {
+            color: white;
+            text-align: center;
+
+        .made {
+                padding: 10px;  
+            }
+        }
+        .social-footer {
+            li {
+                display: inline-block;
+                color: white;
+                padding: 8px;
+                font-size: 32px;
+                } 
+            
+        }
+        .top {
+            position: fixed;
+            right: 3%;
+            bottom: 0;
+            z-index: 9999;
+            color: #ffff;
+            background: #1481A5;
+            padding: 11px;
+            border-radius: 5px 5px 0 0;
+        }
+    }
+    
